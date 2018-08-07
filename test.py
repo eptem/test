@@ -4,6 +4,12 @@ def solve(number):
     number -= 8
     return number
 
+
+def print3(x, y, z):
+    print(x)
+    print(y)
+    print(z)
+
 x = 5
 x = solve(x)
 
@@ -13,6 +19,4 @@ y = solve(y)
 z = 11
 z = solve(z)
 
-print(x)
-print(y)
-print(z)
+print3(x, y, z)
