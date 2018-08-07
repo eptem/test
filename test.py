@@ -1,3 +1,8 @@
+def print3(x, y, z):
+    print(x)
+    print(y)
+    print(z)
+
 x = 5
 
 x += 3
@@ -16,6 +21,4 @@ z += 3
 z *= 2
 z -= 8
 
-print(x)
-print(y)
-print(z)
+print3(x, y, z)
