@@ -14,14 +14,11 @@ def print3(x, y, z):
     print(y)
     print(z)
 
-x = 5
-x = solve(x)
+x = solve(5)
 
-y = 7
-y = solve(y)
+y = solve(7)
 
-z = 11
-z = solve(z)
+z = solve(11)
 
 print3(x, y, z)
 
