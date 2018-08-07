@@ -1,8 +1,5 @@
 def solve(number):
-    number += 3
-    number *= 2
-    number -= 8
-    return number
+    return (number + 3) * 2 - 8
 
 
 def printHello():
