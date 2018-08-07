@@ -5,6 +5,10 @@ def solve(number):
     return number
 
 
+def printHello():
+    print('Hello, world!')
+
+
 def print3(x, y, z):
     print(x)
     print(y)
@@ -20,3 +24,5 @@ z = 11
 z = solve(z)
 
 print3(x, y, z)
+
+printHello()
