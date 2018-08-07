@@ -1,3 +1,6 @@
+def printHello():
+    print('Hello, world!')
+
 x = 5
 
 x += 3
@@ -19,3 +22,5 @@ z -= 8
 print(x)
 print(y)
 print(z)
+
+printHello()
